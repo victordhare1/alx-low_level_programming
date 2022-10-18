@@ -1,20 +1,20 @@
-#include "putchar.h"
+#include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always returns 0
- *
- */
+* main - Print "-putchar"
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	_putchar('P');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	int i;
+	char p[] = "_putchar";
+
+	for (i = 0; i < 8; i++)
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
 	return (0);
 }
