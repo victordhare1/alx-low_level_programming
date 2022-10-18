@@ -1,20 +1,15 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
-* main - Print "-putchar"
-*
-* Return: Always 0 (Success)
-*/
+ * main - Header file
+ * Return: First one down
+ */
 
 int main(void)
 {
-	int i;
-	char p[] = "_putchar";
+	char c[] = "_putchar";
 
-	for (i = 0; i < 8; i++)
-		{
-		_putchar(p[i]);
-		}
-		_putchar('\n');
+	task0(c);
+	putchar('\n');
 	return (0);
 }
