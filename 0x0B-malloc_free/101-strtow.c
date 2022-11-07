@@ -48,7 +48,7 @@ int countChars(char *str)
 			str++;
 		}
 		else
-                 break;
+			break;
 	}
 	return (chars);
 }
