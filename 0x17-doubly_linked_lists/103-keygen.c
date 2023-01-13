@@ -1,20 +1,3 @@
-
-Bampascal
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x17-doubly_linked_lists/103-keygen.c
-
-Bampascal Task 2
- 0 contributors
-127 lines (112 sloc)  2.08 KB
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
